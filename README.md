@@ -42,6 +42,11 @@ function decimals() public pure override returns (uint8) {
 
 Please make sure your decimal setting of the L2 contract is the same as the L1 contract decimal settings. 
 
+**Warning:** The standard bridge does *not* support certain ERC-20 configurations:
+
+- [Fee on transfer tokens](https://github.com/d-xo/weird-erc20#fee-on-transfer)
+- [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
+
 ## Update the bridge token list
 
 You need to create a PR to the [repo](https://github.com/bnb-chain/opbnb-bridge-tokens.git) to add your token into the list of our bridged token list, and at the same time upload your token icon to the git repository.
