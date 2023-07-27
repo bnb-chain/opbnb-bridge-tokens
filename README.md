@@ -61,6 +61,6 @@ First, append your token information to the list.
 Then, create a folder with your token symbol and upload your token icon file.
 
 ```shell
-mkdir USDT
+mkdir YOUR_TOKEN_SYMBOL
 ```
 
