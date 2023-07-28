@@ -63,7 +63,7 @@ First, append your token information to the list.
 | DAI Token   | DAI    | 18      | 0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867 | 0xf46896fbEf6478eaCcFB1C815915daa7e6f87b22 |
 | Your Token  | YTK    | 18      | Your L1 Address on BSC                     | Your L2 Address on opBNB                   |
 
-Then, create a folder with your token symbol and upload your token icon file.
+Then, create a folder with your token symbol and upload your token icon file. The icon file should be a 48x48 png file with size no larger than 300kb.
 
 ```shell
 mkdir YOUR_TOKEN_SYMBOL
