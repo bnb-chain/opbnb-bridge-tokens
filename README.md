@@ -62,6 +62,7 @@ First, append your token information to the list.
 | USDC Token  | USDC   | 18      | 0x64544969ed7EBf5f083679233325356EbE738930 | 0x845E27B8A4ad1Fe3dc0b41b900dC8C1Bb45141C3 |
 | DAI Token   | DAI    | 18      | 0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867 | 0xf46896fbEf6478eaCcFB1C815915daa7e6f87b22 |
 | TestBEP20 Token   | tBEP20 | 18   | 0x8130346999ce53F291C426e4E075949aE24549f6 | 0x2C58b64b4BA448A9b60e9398E58d17F1824da962 |
+| Artificial Liquid Intelligence Token | ALI | 18 | 0x2fd5CEC72400f48F05C11aBf0D0B1bFf83681E58 | 0x785b1246E57b9f72C6bb19e5aC3178aEffb0Fe73 |
 | Your Token  | YTK    | 18      | Your L1 Address on BSC                     | Your L2 Address on opBNB                   |
 
 Then, create a folder with your token symbol and upload your token icon file. The icon file should be a 48x48 png file with a size no larger than 300kb.
