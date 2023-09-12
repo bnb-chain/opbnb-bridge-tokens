@@ -1,0 +1,46 @@
+{
+    "name": "opBNB Token list",
+    "timestamp": "2023-09-12T02:58:18.034Z",
+    "tokens": [
+        {
+            "name": "BTCB Token",
+            "symbol": "BTCB",
+            "decimals": "18",
+            "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/BTCB/logo.svg",
+            "l1Address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+            "l2Address": "0x7c6b91d9be155a6db01f749217d76ff02a7227f2"
+        },
+        {
+            "name": "PancakeSwap Token",
+            "symbol": "Cake",
+            "decimals": "18",
+            "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/Cake/logo.svg",
+            "l1Address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "l2Address": "0xd08a2917653d4e460893203471f0000826fb4034"
+        },
+        {
+            "name": "Ethereum Token",
+            "symbol": "ETH",
+            "decimals": "18",
+            "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/ETH/logo.svg",
+            "l1Address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+            "l2Address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea"
+        },
+        {
+            "name": "First Digital USD",
+            "symbol": "FDUSD",
+            "decimals": "18",
+            "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/FDUSD/logo.jpeg",
+            "l1Address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+            "l2Address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb"
+        },
+        {
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": "18",
+            "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/USDT/logo.svg",
+            "l1Address": "0x55d398326f99059fF775485246999027B3197955",
+            "l2Address": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3"
+        }
+    ]
+}
