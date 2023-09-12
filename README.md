@@ -1,10 +1,12 @@
 # opbnb-bridge-tokens
 
-This repo is used for 
+The opBNB token list is a collection of tokens managed by the maintainers of this repository. These tokens have been deployed on opBNB and serve as a source of truth for services like [opBNB Bridge](https://opbnb-bridge.bnbchain.org/deposit).
 
+## opBNB Mainnet Token List
 
+Check the file [opbnb.tokenlist.json](./opbnb.tokenlist.json).
 
-## Update the bridge token list
+## opBNB Testnet Token List
 
 | Name        | Symbol | Decimal | L1 address(Verified)                       | L2 address(Verfied)                        |
 | ----------- | ------ | ------- | ------------------------------------------ | ------------------------------------------ |
