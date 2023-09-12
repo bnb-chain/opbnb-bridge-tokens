@@ -1,13 +1,6 @@
 # opbnb-bridge-tokens
 
-## Prerequisite
 
-Adding the BEP 20 tokens to the opBNB bridge requires your tokens to be verified on both BSC and opBNB. Follow the steps as below. 
-
-1. Deploy your token`s smart contract to the BSC(Testnet/Mainnet).
-2. Verify your smart contract with [BSCScan](https://bscscan.com/) or [BSCTrace](https://bsctrace.com/) explorer.
-3. Deploy your L2 contract to the opBNB.
-4. Verify your L2 contract with [opBNBScan](https://opbnbscan.com/) or [BSCScan](https://opbnb-testnet.bscscan.com/)(opBNB).
 
 ## How to deploy a L2 BEP-20 token 
 
