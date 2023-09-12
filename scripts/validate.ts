@@ -48,6 +48,21 @@ const ERC20_ABI = [
   }
 ]
 
+async function isImageUrl(url: string): Promise<boolean> {
+  try {
+    const response = await fetch(url);
+    if (response.ok) {
+      const contentType = response.headers.get('Content-Type');
+      if (contentType?.startsWith('image/')) {
+        return true;
+      }
+    }
+    return false;
+  } catch (error) {
+    return false;
+  }
+}
+
 
 async function main() {
   const opbnbProvider = new ethers.JsonRpcProvider(OPBNB_ENDPOINT);
@@ -71,6 +86,9 @@ async function main() {
     }
     if (token.decimals !== decimalsL2 || token.decimals !== decimalsL1) {
       throw new Error(`Decimals mismatch: ${token.decimals}, L2 decimals: ${decimalsL2}, L1 decimals: ${decimalsL1}`)
+    }
+    if(!await isImageUrl(token.logoURI)) {
+      throw new Error(`Invalid logo URI: ${token.logoURI}`)
     }
   }
 }
