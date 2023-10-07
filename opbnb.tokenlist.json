@@ -11,14 +11,6 @@
             "l2Address": "0x7c6b91d9be155a6db01f749217d76ff02a7227f2"
         },
         {
-            "name": "PancakeSwap Token",
-            "symbol": "Cake",
-            "decimals": "18",
-            "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/Cake/logo.svg",
-            "l1Address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-            "l2Address": "0xd08a2917653d4e460893203471f0000826fb4034"
-        },
-        {
             "name": "Ethereum Token",
             "symbol": "ETH",
             "decimals": "18",
