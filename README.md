@@ -5,6 +5,7 @@ The opBNB token list is a collection of tokens managed by the maintainers of thi
 ## opBNB Mainnet Token List
 
 Check the file [opbnb.tokenlist.json](./opbnb.tokenlist.json).
+The schema is described in [tokenlist_schema.md](./tokenlist_schema.md).
 
 ## opBNB Testnet Token List
 
