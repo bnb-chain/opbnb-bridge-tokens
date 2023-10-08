@@ -1,6 +1,6 @@
 # opbnb.tokenlist.json schema description
 
-The schema description of the []`opbnb.tokenlist.json`](./opbnb.tokenlist.json) file.
+The schema description of the [`opbnb.tokenlist.json`](./opbnb.tokenlist.json) file.
 
 ## example
 
