@@ -35,7 +35,7 @@ public fields:
 - `name`: the name of the token. The token's name should match the `name` field in the token contract, as should the symbol and decimals.
 - `symbol`: the symbol of the token
 - `decimals`: the decimals of the token
-- `logoURI`: the logo of the token, it should be a svg file, and the size should be 64x64
+- `logoURI`: the logo URI of the token. It's recommended to use svg file and put the file in the `data` folder. The logo URI should be the relative path of the svg file. For example, the logo URI of BTCB is `https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/BTCB/logo.svg`, and the file is located at `data/BTCB/logo.svg`.
 - `l1Address`: the contract address of the token on L1(BSC)
 - `l2Address`: the contract address of the token on L2(opBNB)
 
