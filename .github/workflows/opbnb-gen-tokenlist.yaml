@@ -18,11 +18,6 @@ jobs:
       - name: Dump GitHub context
         id: github_context_step
         run: echo '${{ toJSON(github) }}'
-      - name: install Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-        
       # get changed files
       - uses: actions/checkout@v3
         with:
@@ -32,23 +27,17 @@ jobs:
         with:
             githubToken: ${{ github.token }}
             outputFormat: 'space-delimited'
-      - name: Get Changed "data/" Files 
-        id: get_changed_token_files 
-        env:
-            CHANGED_FILES: ${{ steps.list_changed_files.outputs.pullRequestFiles }}
-        run: |
-            python .github/tools/check_files.py
-      - name: Combine Files
-        if: ${{ steps.get_changed_token_files.outputs.CHANGED_SPEC_FILES }}
-        env:
-            CHANGED_TOKEN_FILES: ${{ steps.get_changed_token_files.outputs.CHANGED_SPEC_FILES }}
-            TARGET_FILES: "opbnb.tokenlist.json"
-            REPO: ${{ github.repository }}
-        run: | 
-            echo ${{ env.CHANGED_TOKEN_FILES }}
-            # echo ${{ env.TARGET_FILES }}
-            python .github/tools/gen_tokenlist.py
-        
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.6.0
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18.x
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: validate changes and generate new token list
+        run: pnpm run gen_tokenlist
       # commit and push new tokenlist
       - name: Auto commit-stash
         id: auto_commit_stash
