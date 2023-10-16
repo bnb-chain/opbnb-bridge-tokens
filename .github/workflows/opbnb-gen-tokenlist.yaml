@@ -36,7 +36,9 @@ jobs:
           node-version: 18.x
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: validate changes and generate new token list
+      - name: validate changes
+        run: pnpm run validate_changes
+      - name: generate new token list
         run: pnpm run gen_tokenlist
       # commit and push new tokenlist
       - name: Auto commit-stash
