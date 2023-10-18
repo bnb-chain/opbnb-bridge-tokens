@@ -1,6 +1,6 @@
 {
     "name": "opBNB Token List",
-    "timestamp": "2023-10-18T08:32:41.931Z",
+    "timestamp": "2023-10-18T08:39:02.969Z",
     "tokens": [
         {
             "name": "BTCB Token",
@@ -30,7 +30,7 @@
             "name": "IDEX Token",
             "symbol": "IDEX",
             "decimals": "18",
-            "l1Address": "0x0856978F7fFff0a2471B4520E3521c4B3343e36f",
+            "l1Address": "0x0856978F7fFff0a2471B4520E3521c4B3343e360",
             "l2Address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
             "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/IDEX/logo.svg"
         },
