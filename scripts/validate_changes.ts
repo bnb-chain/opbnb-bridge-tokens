@@ -2,6 +2,7 @@ import * as fs from "fs";
 import { listDirectoriesInDirectory, validateToken } from "./utils";
 
 async function main() {
+  console.log(`CHANGED_FILES: ${process.env.CHANGED_FILES}`)
   let dirs = [];
   if (process.env.CHANGED_FILES === "all") {
     dirs = await listDirectoriesInDirectory("./data");
