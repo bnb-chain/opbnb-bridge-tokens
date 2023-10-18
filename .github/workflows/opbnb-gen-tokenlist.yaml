@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: validate changes
-        run: pnpm run validate_changes
+        run: pnpm run validate_ci
       - name: generate new token list
         run: pnpm run gen_tokenlist
       # commit and push new tokenlist

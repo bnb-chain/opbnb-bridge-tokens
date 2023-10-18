@@ -7,6 +7,7 @@
     "validate": "ts-node scripts/validate.ts",
     "validate_all": "CHANGED_FILES=all ts-node scripts/validate_changes.ts",
     "validate_changes": "CHANGED_FILES=$(git diff --name-only HEAD | paste -sd ' ' -) ts-node scripts/validate_changes.ts",
+    "validate_ci": "ts-node scripts/validate_changes.ts",
     "gen_tokenlist": "ts-node scripts/gen_tokenlist.ts"
   },
   "keywords": [],
