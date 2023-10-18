@@ -37,6 +37,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: validate changes
+        env:
+          CHANGED_FILES: ${{ steps.list_changed_files.outputs.pullRequestFiles }}
         run: pnpm run validate_ci
       - name: generate new token list
         run: pnpm run gen_tokenlist
