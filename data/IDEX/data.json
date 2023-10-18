@@ -1,0 +1,8 @@
+{
+    "name": "IDEX Token ",
+    "symbol": "IDEX",
+    "decimals": "18",
+    "logoURI": "logo.svg",
+    "l1Address": "0x0856978F7fFff0a2471B4520E3521c4B3343e36f",
+    "l2Address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0"
+}
