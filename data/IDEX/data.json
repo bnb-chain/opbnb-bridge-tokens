@@ -3,6 +3,6 @@
     "symbol": "IDEX",
     "decimals": "18",
     "logoURI": "logo.svg",
-    "l1Address": "0x0856978F7fFff0a2471B4520E3521c4B3343e36f",
+    "l1Address": "0x0856978F7fFff0a2471B4520E3521c4B3343e360",
     "l2Address": "0x3e7eF8f50246f725885102E8238CBba33F276747"
 }
