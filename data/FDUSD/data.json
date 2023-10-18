@@ -1,0 +1,8 @@
+{
+  "name": "First Digital USD",
+  "symbol": "FDUSD",
+  "decimals": "18",
+  "logoURI": "logo.jpeg",
+  "l1Address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+  "l2Address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb"
+}
