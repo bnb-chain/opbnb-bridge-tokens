@@ -1,6 +1,6 @@
 {
     "name": "opBNB Token List",
-    "timestamp": "2023-10-18T01:52:23.326Z",
+    "timestamp": "2024-01-15T06:59:44.432Z",
     "tokens": [
         {
             "name": "BTCB Token",
@@ -25,6 +25,14 @@
             "l1Address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
             "l2Address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
             "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/FDUSD/logo.jpeg"
+        },
+        {
+            "name": "TrueUSD",
+            "symbol": "TUSD",
+            "decimals": "18",
+            "l1Address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+            "l2Address": "",
+            "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/TUSD/logo.svg"
         },
         {
             "name": "Tether USD",
