@@ -1,0 +1,8 @@
+{
+    "name": "XCAD Token",
+    "symbol": "XCAD",
+    "decimals": "18",
+    "logoURI": "logo.svg",
+    "l1Address": "0xa026Ad2ceDa16Ca5FC28fd3C72f99e2C332c8a26",
+    "l2Address": "0xAF9fE3B5cCDAe78188B1F8b9a49Da7ae9510F151"
+}
