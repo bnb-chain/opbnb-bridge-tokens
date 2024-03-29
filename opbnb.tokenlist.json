@@ -1,6 +1,6 @@
 {
     "name": "opBNB Token List",
-    "timestamp": "2023-10-18T01:52:23.326Z",
+    "timestamp": "2024-03-29T09:21:13.199Z",
     "tokens": [
         {
             "name": "BTCB Token",
@@ -33,6 +33,14 @@
             "l1Address": "0x55d398326f99059fF775485246999027B3197955",
             "l2Address": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3",
             "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/USDT/logo.svg"
+        },
+        {
+            "name": "XCAD Token",
+            "symbol": "XCAD",
+            "decimals": "18",
+            "l1Address": "0xa026Ad2ceDa16Ca5FC28fd3C72f99e2C332c8a26",
+            "l2Address": "0xAF9fE3B5cCDAe78188B1F8b9a49Da7ae9510F151",
+            "logoURI": "https://raw.githubusercontent.com/bnb-chain/opbnb-bridge-tokens/main/data/XCAD/logo.svg"
         }
     ]
 }
